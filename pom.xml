@@ -6,6 +6,7 @@
 
     <groupId>za.co.fana</groupId>
     <artifactId>data-structures-and-algorithms</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
 
@@ -22,4 +23,7 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>fundamental-data-structures</module>
+    </modules>
 </project>
